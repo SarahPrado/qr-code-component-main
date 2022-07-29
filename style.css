@@ -1,0 +1,59 @@
+/*###### Here CSS STYLE gived from FrontEnd Mentor ######*/
+   
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*###### Here My CSS STYLE ######*/
+
+
+html{
+    font-family:'Outfit';
+    font-size: 15px;
+}
+
+.conteinermain{
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(212, 45%, 89%);
+}
+
+.conteinercard{
+    padding: 5px;
+    padding-top: 15px;
+    border-radius: 3%;
+    text-align: center;
+    width: 270px;
+    height: 420px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 0px 20px rgba(134, 134, 134, 0.272);
+}
+
+h1{
+    font-size: 19px;
+    text-align: center;
+    font-weight: 700;    
+}
+
+p{
+    text-align:center;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%)
+}
+
+.image_qr_code{
+    border-radius: 3%;
+    width: 255px;
+    
+}
+
+.mensage{
+    padding: 10px;
+}
+
